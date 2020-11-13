@@ -19,6 +19,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+<b>Details/Goals of this Project</b>
 The purpose of this project was to do the following 5 tasks. See the R script for how each task is accomplished in the code and see the codebook for further information about each variable name and how the data was transformed.
 <ol><li>Merges the training and the test sets to create one data set.</li>
 <li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
