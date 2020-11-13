@@ -70,5 +70,5 @@ names(rundata)<-longnames
 
 runsummary<-rundata %>% group_by(subject,activity) %>%
   summarize(across(1:86, mean), .groups="keep")
-write.csv(runsummary,file="./runsummary.csv")
+write.table(runsummary,file="./runsummary.txt", row.names = FALSE)
 
